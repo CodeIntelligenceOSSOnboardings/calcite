@@ -26,6 +26,7 @@ plugins {
     id("com.github.vlsi.ide")
     calcite.fmpp
     calcite.javacc
+    id("com.code-intelligence.cifuzz") version "1.3.0"
 }
 
 val integrationTestConfig: (Configuration.() -> Unit) = {
