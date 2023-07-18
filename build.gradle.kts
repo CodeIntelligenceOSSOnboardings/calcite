@@ -59,6 +59,7 @@ plugins {
     id("com.github.vlsi.license-gather") apply false
     id("com.github.vlsi.stage-vote-release")
     id("com.autonomousapps.dependency-analysis") apply false
+    id("com.code-intelligence.cifuzz") version "1.3.0"
 }
 
 repositories {
